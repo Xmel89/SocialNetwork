@@ -1,0 +1,11 @@
+.profile {
+    grid-area: p;
+    background-color: pink;
+    width: 0 auto;
+  }
+
+  .profile img{
+    width: 70%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
