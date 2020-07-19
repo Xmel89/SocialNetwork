@@ -4,20 +4,20 @@ import css from './NavBar.module.css'
 const NavBar = () => {
     return (
     <nav className = {css.nav}>
-        <div className = {css.item}>
-          <a href=''>Profile</a>
+        <div className = {`${css.item} ${css.active}`}>
+          <a>Profile</a>
         </div>
         <div className = {css.item}>
-          <a href='dhdh'>Messages</a>
+          <a>Messages</a>
         </div>
         <div className = {css.item}>
-          <a href='dfh'>News</a>
+          <a>News</a>
         </div>
         <div className = {css.item}>
-          <a href='dfhdfh'>Music</a>
+          <a>Music</a>
         </div>
         <div className = {css.item}>
-          <a href='dfhdfh'>Settings</a>
+          <a>Settings</a>
         </div>
     </nav>
     )}

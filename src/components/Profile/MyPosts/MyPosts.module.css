@@ -9,3 +9,11 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+  .item{
+    color: blue;
+    width: 70%;
+    margin-left: 0px;
+    margin-right: 0px;  
+    font-size: 20px;
+    font-family: Tahoma;
+  }

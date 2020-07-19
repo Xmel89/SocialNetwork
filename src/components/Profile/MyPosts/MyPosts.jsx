@@ -3,7 +3,7 @@ import css from './MyPosts.module.css'
 
 const MyPosts = () => {
     return(
-            <div>
+            <div className = {css.item}>
                 <div>
                     ava+ descr
                 </div>
